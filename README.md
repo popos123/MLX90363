@@ -7,5 +7,5 @@ I was added just:
 - STM32
 - Arduino IDE
 
-I was used this library for the my new projest:
+I was used this library for the my new project:
 https://github.com/popos123/Logitech-G29-Motherboard-Replacement
