@@ -35,9 +35,9 @@ class Magnet {
       #else
       this->hspi = new SPIClass();
       #if defined(__AVR__)
-      this->hspi->begin();
+      this->hspi->begin(); // just for Arduino Leonardo
       #else
-      this->hspi->begin(pin_SS1);
+      this->hspi->begin(pin_SS1); // for e.g. STM32 series
       #endif
       #endif
     }
