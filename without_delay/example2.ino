@@ -1,3 +1,5 @@
+//#define Software // software if definde or hardware SPI if not
+
 #include <Arduino.h>
 #include "MLX90363.h"
 
