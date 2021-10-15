@@ -9,7 +9,8 @@ uint32_t last_cnt = 0;
 
 void setup() {
   MLX90363.begin(16, 14, 15, 10); // MOSI, MISO, SCK, CS
-  Serial.begin(500000);
+  //MLX90363->begin(PA7, PA6, PA5, PA4); // for Blue Pill
+  Serial.begin(500000); // use 500k and 1M for maximize loop speed
 }
 
 void loop() {
