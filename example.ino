@@ -9,7 +9,6 @@ void setup() {
   MLX90363 = new Magnet();
   MLX90363->begin(16, 14, 15, 10); // MOSI, MISO, SCK, CS
   //MLX90363->begin(PA7, PA6, PA5, PA4); // for Blue Pill
-  
   Serial.begin(9600);
 }
 
