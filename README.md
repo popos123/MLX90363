@@ -11,7 +11,7 @@ There is a 2 versions:
 - slow version with delay in the library: about 0.5kHz read rate (folder **with_delay**)
 - fast version with timers in the library: about 1.1kHz read rate (folder **without_delay**)
 
-*in version **without_delay** it is not recommended to use the delay() function
+*in version **without_delay** it is not recommended to use the delay() function in main loop()
 
 I was used this library for the my new project:
 https://github.com/popos123/Logitech-G29-Motherboard-Replacement
