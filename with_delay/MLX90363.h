@@ -54,7 +54,7 @@ class Magnet {
       this->u8_spi_write_buffer[6] = 0x13;
       this->u8_spi_write_buffer[7] = 0xEA;
       #ifndef Software
-      this->hspi->beginTransaction(SPISettings(500000, MSBFIRST, SPI_MODE1));
+      this->hspi->beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE1));
       #endif
       digitalWrite(this->pin_SS1, LOW); // Select
       for (int i = 0; i < 8; i++) {
@@ -81,7 +81,7 @@ class Magnet {
       this->u8_spi_write_buffer[7] = 0xAB;
 
       #ifndef Software
-      this->hspi->beginTransaction(SPISettings(500000, MSBFIRST, SPI_MODE1));
+      this->hspi->beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE1));
       #endif
       digitalWrite(this->pin_SS1, LOW); // Select
       for (int i = 0; i < 8; i++) {
