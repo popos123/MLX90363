@@ -1,0 +1,8 @@
+Pinout Magnetometer MLX90363 on the G29 board (CN3):
+1. +5V - red
+2. GND - black
+3. MISO - blue
+4. MOSI - green
+5. SCLK - orange
+6. CS - yellow
+
